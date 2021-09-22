@@ -1,1 +1,3 @@
-# PROA-Javascript
+# PROA Javascript
+
+Exercícios de Javascript
