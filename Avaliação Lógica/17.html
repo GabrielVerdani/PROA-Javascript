@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let idadeHumana = Number(prompt("Quantos anos tem o seu gato?"));
+        // let idadeHumana = 7;
+        let anos = 1;
+        let idade = 0;
+
+        while (anos <= idadeHumana) {
+            if (anos == 1) {
+                idade += 15;
+            } else if (anos == 2) {
+                idade += 10;
+            } else {
+                idade += 4;
+            }
+            anos++
+        }
+
+        alert(`Um gato de ${idadeHumana} anos humanos tem ${idade} anos em idade de gato.`)
+    </script>
+</body>
+
+</html>

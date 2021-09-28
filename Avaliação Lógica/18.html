@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let preco = Number(prompt("Digite o valor de custo: (Apenas números)"));
+        let porcLucro = Number(prompt("Digite a porcentagem de lucro: (Apenas números)"));
+        let lucro = porcLucro / 100 * preco
+        let precoFinal = porcLucro + preco;
+
+        alert(
+            `O carro comprado por R$${preco.toFixed(2)}, com uma margem de aumento de ${porcLucro}%, foi vendido por R$${precoFinal.toFixed(2)}, recebendo R$${lucro.toFixed(2)} de lucro.`
+        )
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let preco = 8190;
+        let parcelas = Number(prompt("Em quantas parcelas deseja pagar? Max: 15"));
+
+        while (parcelas > 15 || parcelas < 1 || isNaN(parcelas) || parcelas == "") {
+            alert("Por favor, digite um valor entre 1 e 15.")
+            parcelas = Number(prompt("Em quantas parcelas deseja pagar? Max: 15"));
+        }
+
+        alert(`O drone sera parcelado em ${parcelas}x de R$${(preco/parcelas).toFixed(2)}`)
+    </script>
+</body>
+
+</html>

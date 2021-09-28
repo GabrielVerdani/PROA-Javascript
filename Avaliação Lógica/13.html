@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let counter = 1;
+        let numbers = [];
+        while (counter <= 10) {
+            let num = Number(prompt(`Número ${counter}:`))
+            if (num < 40) {
+                numbers.push(num)
+            }
+            counter++
+        }
+
+        let result = 0;
+        for (i of numbers) {
+            result += i;
+        }
+
+        alert(`A soma de: ${numbers.join(', ')} é ${result}`);
+    </script>
+</body>
+
+</html>
