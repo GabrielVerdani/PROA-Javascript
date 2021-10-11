@@ -1,0 +1,96 @@
+Acordar em cidade desconhecida
+
+1. Sai andando, tudo e explorar tudo
+2. Ou verificar a bateria
+- Após ver o status da bateria, sairia andando tranquilamente.
+
+Encontrar prédios destruídos, porém, uma das salas teriam uma janela acesa.
+
+Ignorar / Explorar 
+(Decisão Importante)
+
+-- Ignorar 
+
+Ignorando, você continua andando, por um bom tempo.
+(se verificou bateria) você percebe que sua bateria está prestes a se esgotar.
+Detecta um miado de gato.
+
+1. Ir atrás
+- Indo atrás, você encontra um pequeno gato, com metade de seu corpo composto de partes mecânicas.
+Ele tem uma bateria em sua barriga, aparentemente carregada. Ela é do mesmo tamanho da sua.
+
+2. Ignorar
+- Ignorando, você continua andando por mais alguns minutos, e acaba perdendo as forças. Sua bateria está muito fraca, suas pernas não se movem mais. Fim.
+
+
+
+1. Pegar bateria
+- A bateria não era compatível, você começa a ouvir barulhos ensurdecedores, seus braços começam a girar e, aos poucos, sua visão escurece. Fim.
+
+2. Seguir gato
+- Você segue o gato por uns 2 minutos, até que ele se senta. Seus olhos se fecham, e sua barriga começa a brilhar.
+Existe uma plataforma ao lado dele muito parecida.
+
+
+1 ---- Se sentar	
+
+Sentando, você desliga por um tempo. Minutos? Horas? Dias? você não sabe, mas ao acordar, o gato não está mais lá.
+Ao seu lado agora há algo de aparencia humana, de pé, também com os olhos fechados.
+
+1. "Quem é você?"
+2. "Onde eu estou?"
+3. "O que aconteceu?"
+
+	Ele te responde, porém tudo que você consegue ouvir são barulhos, vindo de todos os lados.
+	Ele abre os punhos, e em sua mão, cai uma bateria, muito parecida com a sua.
+	Sua bateria atual está em 0%, mas por algum motivo, você ainda está acordado.
+
+	1. Bater na coisa ao seu lado.
+	- Ao tentar atacar, seus braços não alcançam ele.
+	Ele percebe o que você tentou fazer e te empurra para fora da plataforma.
+	Sua bateria estava em 0%, e não há mais um carregador te mantendo vivo. Fim.
+
+	2. Tentar pegar a bateria.
+	- Você pega a bateria e coloca em seu corpo. Tinha seu nome escrito ao lado, era com certeza sua.
+	Sua bateria agora está em 96%.
+	Esse lugar parece muito hostil.
+
+		1. Atacar o humano, e continuar nesse lugar para sobreviver.
+		- Você ataca o humano e, de bateria cheia, você é muito mais forte do que ele.
+		Ele cai no chão, e derruba mais uma bateria, de mesmo formato, mas com outro nome. "ReixCat".
+		Você continua, fazendo de tudo para se manter carregado. Fim.
+
+		2. Tentar fugir.
+		- Você começa a correr incessantemete, para longe dessa cidade.
+		Após alguns dias correndo, você está perdido, num vazio gigantesco.
+		Sua bateria: 2%.
+		Parece que sua jornada chegou ao Fim.
+
+	3. Sair.
+	- Você tenta sair, porém, ao pisar fora do carregador, você desliga imediatamente.
+	Você saiu daquilo que te mantia vivo, Fim.
+
+
+2 ----- Ignorar 
+
+Observando aquele local, você desconfia, e não se senta. Sua bateria está se esgotando cada vez mais rápido
+Essa pode ser sua ultima escolha.
+
+1. Se sentar
+2. Ignorar
+- Você continua ignorando e, sua bateria finalmente se esgota. Fim.
+
+-----------------------------------------------------------------------------------------------------------
+
+-- Explorar
+
+Você entra num prédio completamente vazio, e não escuta nenhum som além de algo eletrocutado
+Você segue andando até o quarto iluminado, e no caminho não encontra nada, nem uma alma viva, nenhum som além daquele.
+Na fresta da porta do quarto sai uma luz extremamente forte, você não tem ideia de onde pode estar vindo.
+
+1 - Abrir a porta
+2 - Sair e explorar o resto do prédio
+
+
+
+
