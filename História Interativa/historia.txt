@@ -86,10 +86,199 @@ Essa pode ser sua ultima escolha.
 
 Você entra num prédio completamente vazio, e não escuta nenhum som além de algo eletrocutado
 Você segue andando até o quarto iluminado, e no caminho não encontra nada, nem uma alma viva, nenhum som além daquele.
-Na fresta da porta do quarto sai uma luz extremamente forte, você não tem ideia de onde pode estar vindo.
+Na fresta da porta do quarto sai uma luz extremamente forte, você não tem ideia do que pode ser.
 
-1 - Abrir a porta
-2 - Sair e explorar o resto do prédio
+1 - Abrir a porta {
+	Abrindo a porta, uma luz extremamente forte danifica o seu visor, e tudo que você consegue ver é a cor branca. Um som de choque sai da sua direita, e um cheiro de fumaça toma o quarto. Consertar o seu visor vai levar tempo, todas as suas outras funções serão desligadas durante o conserto, e sua bateria está próxima do fim.
+
+	Tempo restante de bateria: 27 minutos.
+	Tempo para consertar visor: 17 minutos.
+
+	Você escuta uma voz fina, da sua direita: ${nome}?
+
+	1 - "Quem é você?" {
+		"Sou eu, ${nome}, Carla, você não se lembra? Você estava desligado quando acordei, então fui para a cidade procurar recursos para te ajudar. Achei que estava sozinha aqui, mas um homem chegou com essa luz e um aparelho de som, não sei o que era mas danificou todo o meu equipamento, ele arrancou meu braço e acredito que foi embora. Felizmente consegui consertar o meu visor, mas acho que sem meu braço eu não tenho muito tempo viva."
+
+		Tempo restante de bateria: 25 minutos.
+		Tempo para consertar visor: 17 minutos.
+
+		1 - "E como eu posso te ajudar?" {
+			"Eu não sei, você provavelmente não consegue ver nada, mas ele largou o meu braço da janela, acredito que ele só pegou uma peça dele. Se você conseguir pegá-lo pra mim, eu poderia consertar seu visor, e poderiamos sair daqui finalmente."
+
+			Tempo restante de bateria: 23 minutos.
+			Tempo para consertar visor: 17 minutos.
+
+			1 - Pedir instruções para pegar o braço. {
+				"Está bem próximo daí, só se levanta, vira 34 graus para a esquerda, anda 46cm para frente e aponte seu braço para frente, imagino que vá esbarrar nele, só tenha cuidado para não derrubá-lo!"
+
+				Tempo restante de bateria: 23 minutos.
+				Tempo para consertar visor: 17 minutos.
+				1 - Tentar pegar o braço (50%) {
+					- Win {
+						Você esbarra no braço e ele quase cai, mas você o segura rapidamente.
+						Você refaz os seus paços de volta e tenta entregá-lo à Carla. Ela te dá instruções exatas de como e onde você deve colocá-lo, e você segue. Isso toma um pouco de seu tempo.
+
+						Tempo restante de bateria: 16 minutos.
+						Tempo para consertar visor: 17 minutos.
+
+						- Continuar
+
+						Carla, agora com seu braço consertado, começa a emitir alguns sons, como se estivesse consertando algo. Rapidamente você ouve sons de passos, ela se levanta, e você a sente atrás de você. Ela começa a mexer na sua cabeça, e de repente, você está vendo novamente! Porém, você ainda não se lembra dela.
+
+						Tempo restante de bateria: 10 minutos.
+
+						- Continuar
+
+						"Minha bateria está acabando, eu preciso recarregar rápido", você diz. Carla rapidamente procura em suas caixas uma bateria nova. Com muito medo de não ser compatível, ela troca a bateria dela mesma primeiro e depois te dá a bateria dela, com um rótulo ao lado escrito "Carla".
+
+						Tempo restade de bateria: Aproximadamente 7 dias.
+
+						- 1 - Tentar consertar a sua nave com Carla. {
+							Com sua bateria cheia, e totalmente consertados, Carla te leva até a nave que vocês caíram. Não é o mesmo local que você acordou, é como se todas as suas memórias antes daquilo não existissem. Vocês chegam na nave, e começam a consertá-la lentamente. Após alguns dias indo e voltando da cidade, coletando diversos recursos e utilizando a habilidade incrível de Carla para reparos. 
+							
+							- Continuar
+							
+							Você se senta na nave, Carla te conecta à nave com um cabo em sua cabeça, ela se senta no assento ao seu lado, se conecta também, e vocês saem desse planeta. Ao olhar para trás, você percebe que o planeta era completamente deserto, e tudo o que há é aquela pequena cidade em ruínas.
+
+							Fim
+						}
+						- 2 - Ir atrás do homem misterioso com Carla. {
+							Você e Carla combinam de ir atrás daquele homem misterioso que danificou seu visor e todos os equipamentos dela. Vocês saem nas ruas atrás dele e, após alguns minutos andando, você escuta o barulho de um gato com raiva. Vocês vão atrás dele e encontram um homem correndo furiosamente atrás desse gato.
+
+							- Continuar
+
+							Carla corre rapidamente atrás do homem e, de surpresa, arranca uma bateria que estava presa à ele. Ele não desliga completamente, mas perde as forças de continuar de pé. Após Carla perguntar com muita raiva o que ele quer, ele diz suas ultimas palavras: "Nesse mundo... é matar... ou ser morto...".
+
+							- Continuar
+
+							Após o homem morrer, parece que não há mais nada além de vocês e aquele gato, e de repente o chão começa a tremer. Vocês desestabilizaram o mundo? O que está acontecendo? O que que ele sabe? Por que aquele homem era capaz de tudo para se manter vivo? Aquele homem era o que mantia esse mundo inteiro? Tantas perguntas sem resposta, e aparentemente vocês não tem tempo para descobrir a resposta. O chão debaixo de vocês se quebra, e vocês começam a afundar na area abaixo do asfalto. Vocês tentam rapidamente subir, mas parece impossível. O mundo começa a se comprimir cada vez mais, comprimindo vocês junto, até que destrói vocês dois por completo.
+
+							Fim.
+						}
+					}
+
+					- Lose {
+						Você tenta pegar o braço na janela, mas acaba esbarrando nele forte demais, e infelizmente ele cai para fora.
+						Você está cego e se lembra do caminho para baixo do prédio, mas não tem certeza se tem tempo suficiente para isso.
+
+						Tempo restante de bateria: 19 minutos
+						Tempo para consertar o visor: 17 minutos
+
+						1 - Ir para baixo do prédio. {
+							Você se desespera e começa a ir para baixo do prédio, tentando desfazer o caminho que fez para subir. Isso leva um tempo, e chegando la em baixo você se agacha e começa a procurar o braço. Você sente que empurra algumas coisas, mas não encontra nenhuma peça grande o bastante para ser um braço.
+							Você começa a juntar todas as peças e encontrou e levar para cima.
+
+							Tempo restante de bateria: 3 minutos
+							Tempo para consertar o visor: 17 minutos
+
+							- Continuar
+
+							Carla percebe que é seu braço, porém todo despedaçado, e impossível de utilizar. Infelizmente você não consegue enxergar, seu visor está quebrado, e o cheiro de fumaça está muito mais forte no quarto. Parece que sua história está chegando a um fim. Como última pergunta, você diz: "Mas... quem é você?"
+							"Eu sou sua criadora, ${nome}.
+
+							Ela explode.
+						}
+						2 - Consertar visor. {
+							Você começa a consertar seu visor, e como num piscar de olhos... Você está vendo novamente! Na sua frente você vê uma mulher, metade humana, metade robô. De seu corpo sai muita fumaça e ela não consegue se mover. Está sem seu braço direito, e quase não consegue falar.
+
+							Tempo restante de bateira: 1 minuto e 15 segundos.
+
+							- Pegar bateria de carla {
+								Você desesperadamente tenta roubar a bateria dela, e ela começa a te avisar loucamente dizendo "não não não". Você a ignora e, ao chegar próximo, ela explode, o destruindo completamente. 
+								
+								Você morreu.
+							}
+						}
+					}
+				}
+
+				2 - (same)Consertar o visor. {
+					Você decide consertar o seu visor antes, afinal, o perigo de derrubar o braço é muito grande. Você começa a consertar seu visor, e como num piscar de olhos... Você está vendo novamente! Na sua frente você vê uma mulher, metade humana, metade robô. De seu corpo sai muita fumaça e ela não consegue se mover. Está sem seu braço direito, e quase não consegue falar.
+
+					Tempo restante de bateria: 6 minutos.
+
+					1 - Pegar o braço de Carla. {
+						Você rapidamente vai até a janela e pega o braço de Carla, e conecta ao corpo dela. Ela, em poucos minutos se conserta por completo. "Minha bateria está acabando, eu preciso recarregar rápido", você diz. Carla rapidamente procura em suas caixas uma bateria nova. Com muito medo de não ser compatível, ela troca a bateria dela mesma primeiro e depois te dá a bateria dela, com um rótulo ao lado escrito "Carla".
+
+						Tempo restante de bateria: Aproximadamente 7 dias.
+
+						- 1 - Tentar consertar a sua nave com Carla. {
+							Com sua bateria cheia, e totalmente consertados, Carla te leva até a nave que vocês caíram. Não é o mesmo local que você acordou, é como se todas as suas memórias antes daquilo não existissem. Vocês chegam na nave, e começam a consertá-la lentamente. Após alguns dias indo e voltando da cidade, coletando diversos recursos e utilizando a habilidade incrível de Carla para reparos. 
+							
+							- Continuar
+							
+							Você se senta na nave, Carla te conecta à nave com um cabo em sua cabeça, ela se senta no assento ao seu lado, se conecta também, e vocês saem desse planeta. Ao olhar para trás, você percebe que o planeta era completamente deserto, e tudo o que há é aquela pequena cidade em ruínas.
+
+							Fim
+						}
+						- 2 - Ir atrás do homem misterioso com Carla. {
+							Você e Carla combinam de ir atrás daquele homem misterioso que danificou seu visor e todos os equipamentos dela. Vocês saem nas ruas atrás dele e, após alguns minutos andando, você escuta o barulho de um gato com raiva. Vocês vão atrás dele e encontram um homem correndo furiosamente atrás desse gato.
+
+							- Continuar
+
+							Carla corre rapidamente atrás do homem e, de surpresa, arranca uma bateria que estava presa à ele. Ele não desliga completamente, mas perde as forças de continuar de pé. Após Carla perguntar com muita raiva o que ele quer, ele diz suas ultimas palavras: "Nesse mundo... é matar... ou ser morto...".
+
+							- Continuar
+
+							Após o homem morrer, parece que não há mais nada além de vocês e aquele gato, e de repente o chão começa a tremer. Vocês desestabilizaram o mundo? O que está acontecendo? O que que ele sabe? Por que aquele homem era capaz de tudo para se manter vivo? Aquele homem era o que mantia esse mundo inteiro? Tantas perguntas sem resposta, e aparentemente vocês não tem tempo para descobrir a resposta. O chão debaixo de vocês se quebra, e vocês começam a afundar na area abaixo do asfalto. Vocês tentam rapidamente subir, mas parece impossível. O mundo começa a se comprimir cada vez mais, comprimindo vocês junto, até que destrói vocês dois por completo.
+
+							Fim.
+						}
+					}
+					2 - Deixar Carla e sair para tentar recarregar sua bateria. {
+						Você sai do quarto, a deixando sozinha, e sai correndo de quarto em quarto, procurando alguma bateria ou algum caregador compatível. Infelizmente, após alguns minutos procurando, sua energia vai aos poucos se acabando, e sem forças, você cai no chão.
+
+						Tempo restante de bateria: 10 segundos.
+
+						Parece que sua história chegou a um fim.
+					}
+				}
+			}
+			2 - (same)Consertar visor. {
+			}
+
+		}
+		2 - "Começar a consertar o visor." {
+			Você decide consertar o seu visor antes, afinal, você não tem muito tempo vivo. Você começa a consertar, e como num piscar de olhos... Você está vendo novamente! Na sua frente você vê uma mulher, metade humana, metade robô. De seu corpo sai muita fumaça e ela não consegue se mover. Está sem seu braço direito, e quase não consegue falar.
+
+			Tempo restante de bateria: 8 minutos
+
+			1 - "E como eu posso te ajudar?" {
+				"O homem, ele arrancou o meu braço mas não o levou, está ali na janela, acredito que ainda funcione, mesmo que ele tenha levado algumas peças dele. Se você conectar ao meu corpo eu posso me consertar e nós podemos sair daqui"
+
+				Tempo restante de bateria: 7 minutos.
+
+				- Pegar o braço de Carla
+				- Sair do quarto para tentar recarregar a bateria.
+			}
+			2 - "A minha bateria está acabando, pode me ajudar?" {
+				"No momento não, mas se você pegar o meu braço na janela eu posso me consertar e te ajudar. Está ali na janela, o homem que veio aqui o largou lá mas acredito que ainda funciona, mesmo que ele tenha levado algumas peças."
+				
+				- Pegar o braço de Carla
+				- Sair do quarto para tentar recarregar a bateria.
+			}
+		}
+	}
+	2 - Ignorar, se sentar, e começar a consertar imediatamente seu visor. {
+		Você decide ignorar, afinal, não tem muito tempo restante vivo. Você começa a consertar seu visor, e como num piscar de olhos... Você está vendo novamente! Na sua frente você vê uma mulher, metade humana, metade robô. De seu corpo sai muita fumaça e ela não consegue se mover. Está sem seu braço direito.
+
+		Tempo restante de bateria: 10 minutos.
+
+		- "Quem é você?" {
+			"Sou eu, ${nome}, Carla, você não se lembra? Você estava desligado quando acordei, então fui para a cidade procurar recursos para te ajudar. Achei que estava sozinha aqui, mas um homem chegou com essa luz e um aparelho de som, não sei o que era mas danificou todo o meu equipamento, ele arrancou meu braço e acredito que foi embora. Felizmente consegui consertar o meu visor, mas acho que sem meu braço eu não tenho muito tempo viva."
+
+			- "E como eu posso te ajudar?"
+				- Pegar o braço...
+			- Sair para tentar recarregar a bateria
+		}
+
+		- Sair para tentar recarregar a bateria
+	}
+}
+2 - Sair e explorar o resto do prédio {
+	Você passa um tempo explorando o resto do prédio, alguns minutos, procurando algo que possa te recarregar... Após alguns minutos andando você vê um ratinho, que corre pra um dos quartos. Entrando nesse quarto, você encontra uma bateria jogada em cima de uma das camas. Você rapidamente, com 2 minutos de bateria restante, troca sua bateria com essa nova, mas infelizmente, ela não é compatível. Você perde controle do seu corpo por um tempo, e ele cai duro no chão. Você morreu.
+}
+
 
 
 
